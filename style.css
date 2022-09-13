@@ -1,0 +1,153 @@
+* {
+    /* border: 1px dashed red; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+}
+
+#page_404 {
+    width: 375px;
+    height: 949px;
+    border: 1px solid black;
+    border-radius: 8%;
+    gap: 10px;
+    margin: auto;
+}
+
+.logo {
+    color: #333;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    /* margin-left: 80px; */
+    margin-left: 24px;
+    letter-spacing: -4px;
+    /* margin-top: 40px; */
+    margin-top: 20px;
+    margin-right: 218px;
+    text-align: center;
+    width: 133px;
+    height: 25px;
+}
+
+.img--container {
+    /* width: 540px; */
+    /* height: 448px; */
+    /* margin-top: 200px; */
+    /* margin-left: 77px; */
+    width: 286px;
+    height: 238px;
+    margin: auto;
+    padding-top: 64px;
+}
+
+.scarecrow {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ############################################################
+CONTENT
+############################################################ */
+.content--container {
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.title {
+    color: #333;
+    font-family: space-mono, mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    /* letter-spacing: -3.5%; */
+    line-height: 71.09px;
+    margin: 30px 1px 15px 24px;
+}
+
+.notice {
+    color: #4f4f4f;
+    font-family: space-mono, mono;
+    /* font-size: 48px; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -3.5%;
+    line-height: 26.66px;
+    margin: 15px 24px 33px;
+    width: 328px;
+    height: 81px;
+}
+
+.home--button {
+    background: #333;
+    width: 216px;
+    height: 68px;
+    margin-left: 24px; 
+    /* padding: 24px 43px; */
+    margin-top: 33px;
+
+}
+
+.button--text {
+    color: #fff;
+    font-family: space-mono, mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -3.5%;
+    line-height: 20.73px;
+    /* margin: 15px 24px 43px; */
+    text-transform: uppercase;
+    width: 130px;
+    height: 21px;
+}
+
+
+/* ############################################################
+FOOTER
+############################################################ */
+footer {
+    line-height: 17px;
+    margin: 24px 0;
+    padding-bottom: 0;
+}
+
+.creator--link,
+.creator--link a,
+.creator--link span {
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 700; */
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    width: 100%;
+    /* height: 17px; */
+}
+
+.creator--link {
+    font-weight: 500;
+}
+
+.creator--link a {
+    font-weight: 700;
+}
+
+.creator--link span {
+    font-weight: 600;
+}
+
+
+/* ############################################################
+MEDIA QUERIES
+############################################################ */

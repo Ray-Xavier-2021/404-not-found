@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">404 Not Found</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -71,5 +71,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [your-website.com](https://{your-web-site-link})
-- GitHub [@Ray-Xavier-2021](https://github.com/Ray-Xavier-2021/404-not-found})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@Ray-Xavier-2021](https://github.com/Ray-Xavier-2021/404-not-found)
