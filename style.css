@@ -7,13 +7,11 @@
 
 body,
 html {
-    width: 100%;
+    height: 1vh;
 }
 
 #page_404 {
     width: 375px;
-    height: 949px;
-    border: 1px solid black;
     border-radius: 8%;
     gap: 10px;
     margin: auto;
@@ -27,10 +25,8 @@ html {
     line-height: 25px;
     display: inline-block;
     text-transform: uppercase;
-    /* margin-left: 80px; */
     margin-left: 24px;
-    letter-spacing: -4px;
-    /* margin-top: 40px; */
+    letter-spacing: -3.5px;
     margin-top: 20px;
     margin-right: 218px;
     text-align: center;
@@ -39,10 +35,6 @@ html {
 }
 
 .img--container {
-    /* width: 540px; */
-    /* height: 448px; */
-    /* margin-top: 200px; */
-    /* margin-left: 77px; */
     width: 286px;
     height: 238px;
     margin: auto;
@@ -59,8 +51,6 @@ html {
 CONTENT
 ############################################################ */
 .content--container {
-    /* display: flex; */
-    /* align-items: center; */
 }
 
 .title {
@@ -119,7 +109,7 @@ FOOTER
 footer {
     line-height: 17px;
     margin: 24px 0;
-    padding-bottom: 0;
+    padding-top: 20px;
 }
 
 .creator--link,
@@ -151,3 +141,54 @@ footer {
 /* ############################################################
 MEDIA QUERIES
 ############################################################ */
+
+@media screen and (min-width: 1400px) {
+    /* Desktop */
+
+    #page_404 {
+        /* display: flex; */
+        width: 1440px;
+        height: 1080px;
+    }
+
+    .logo {
+        margin-left: 77px;
+        letter-spacing: -3px;
+        margin-top: 40px;
+    }
+    .content--container {
+        width: 100%;
+    }
+
+    .img--container {
+        margin-top: 265px; 
+        margin-left: 77px;
+    }
+
+    .scarecrow {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        /* width: 50%; */
+    }
+
+    .title {
+        font-size: 64px;
+        line-height: 95px;
+        width: 586px;
+        height: 190px;
+        letter-spacing: -3.5%;
+        /* tbd - after positioning */
+        margin: 30px 1px 15px 24px;
+    }
+
+    .notice {
+        font-size: 24px;
+        line-height: 36px;
+        width: 381px;
+        height: 108px;
+    }
+    
+}
