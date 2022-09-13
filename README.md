@@ -36,10 +36,12 @@
 
 ## Overview
 
-![Mobile First](../../Pictures/Screenshots/404-mobile.png)
+![Mobile First](https://user-images.githubusercontent.com/78431899/189870835-59192a72-5534-4c91-9454-f34cf34fb723.png)
 
-![Desktop View](../../Pictures/Screenshots/404-desktop.png)
-Introduce your projects by taking a screenshot or a gif. 
+
+![Desktop View](https://user-images.githubusercontent.com/78431899/189870935-90f7ecf7-57e3-4b97-a79e-ef5a273e6c37.png)
+Introduce your projects by taking a screenshot or a gif.
+
 
 Try to tell visitors a story about your project by answering:
 
